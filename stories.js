@@ -1,0 +1,53 @@
+  const storyLines = [
+	[
+	"The Thanksgiving Grinch",
+    "It was Thanksgiving and all the people in [place] were ready for their celebration.",
+    "There was just one problem: the [adjective] turkey was missing!",
+    "The townspeople [verb (past tense)] high and low, but the [noun] was nowhere to be found.",
+	'"[Exclamation]!" little Sally [noun] said.',
+	"\"We can't have Thanksgiving without a [noun]!\"",
+	"Just then, a [adjective] figure appeared.",
+	"It was [person in room], the mean old [noun] who lived on top of a [adjective] hill and never came to visit.",
+	"\"I took your [adjective] turkey\", he shouted.",
+	"\"You [pural noun] are so thankful, but what do you have to be thankful for?\"",
+	"\"We have our friends, our families, and our [plural noun]\", said little Sally [noun].",
+	"\"Just because <i>you</i> don't have any doesn't mean you should ruin <i>our</i> Thanksgiving, you mean old [noun]!\"",
+	"The townspeople cheered, and the grumpy [noun] saw the error of his ways.",
+	"He returned the town's turkey and joined the [plural noun] in celebration.",
+	"\"Happy Thanksgiving to [plural noun] everywhere!\" little Sally [noun] cheered,",
+	"and they all lived [adverb] ever after."
+	],
+	[
+	"What I'm Thankful For",
+    "This Thanksgiving, I’m thankful for all the [adjective] things in my life.",
+    "Even though I complain about how [person in room] is always getting on my nerves, ",
+    "or how my [noun] homework is boring, or how I hate cleaning my [noun], ",
+	"I know I am a very lucky [noun].",
+	"I have a roof over my [part of the body], ",
+	"I always have enough [plural noun] to eat and [type of liquid] to drink.",
+	"I have a good [part of the body] on my shoulders, and I am as healthy as a [noun].",
+	"My [adjective] family loves me, even when I act like a devil-[noun].",
+	"And my friends always have my best [noun] at heart.",
+	"Yep, I’ve got all the [plural noun] I need, ",
+	"and now I get to eat a [number]-course Thanksgiving meal, too.",
+	"What more could a [noun] ask for?"
+	],
+	[
+	"The First Thanksgiving",
+    "In late 1620, [number] pilgrims arrived at Plymouth Rock.",
+    "They had come all the way from [place] to find religious freedom in America.",
+    "But life in the new [noun] was not easy.",
+	"Their first winter was [adjective], and many [plural noun] fell ill.",
+	"Luckily, the following year, a [adjective] Native American named [person in room]",
+	"taught the Pilgrims how to grow crops like corn and [plural noun].",
+	"By that November the Pilgrims had plenty of [plural noun] to harvest, ",
+	"so they decided to have a [adjective] feast.",
+	"They invited their [adjective] Native American friends to join them, ",
+	"and the festival lasted for [number] days.",
+	"They ate the [plural noun] of their harvest, ",
+	"as well as deer and several [adjective] birds.",
+	"It was a [noun] to remember, and has since become known as the first Thanksgiving.",
+	"While the menu has changed [adverb] over the years, ",
+	"Thanksgiving is still a time to celebrate our [plural noun] and our [adjective] fortune."
+	]
+  ];
