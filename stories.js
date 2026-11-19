@@ -59,7 +59,7 @@
 	"The Pigrims, it turns out, had no idea how to [verb] in the New World.",
 	"[Adverb], Squanto taught them how to plant [plural noun], fish for [plural noun], and hunt for wild [plural noun].",
 	"Without Squanto's help, the Pilgrims might not have [verb (past tense)], much less had [plural noun] to make a [adjective] Thanksgiving feast.", 
-	"Without Squanto's [adjective] help, we might not [verb] Thanksgiving at all."
+	"Without Squanto's [adjective] help, we might not [verb] Thanksgiving at all. Thank you, Squanto."
 	],
 	[
 	"Travel Disaster",
