@@ -1,23 +1,5 @@
   const storyLines = [
 	[
-	"The Thanksgiving Grinch",
-    "It was Thanksgiving and all the people in [place] were ready for their celebration.",
-    "There was just one problem: the [adjective] turkey was missing!",
-    "The townspeople [verb (past tense)] high and low, but the [noun] was nowhere to be found.",
-	'"[Exclamation]!" little Sally [noun] said.',
-	"\"We can't have Thanksgiving without a [noun]!\"",
-	"Just then, a [adjective] figure appeared.",
-	"It was [person in room], the mean old [noun] who lived on top of a [adjective] hill and never came to visit.",
-	"\"I took your [adjective] turkey\", he shouted.",
-	"\"You [pural noun] are so thankful, but what do you have to be thankful for?\"",
-	"\"We have our friends, our families, and our [plural noun]\", said little Sally [noun].",
-	"\"Just because <i>you</i> don't have any doesn't mean you should ruin <i>our</i> Thanksgiving, you mean old [noun]!\"",
-	"The townspeople cheered, and the grumpy [noun] saw the error of his ways.",
-	"He returned the town's turkey and joined the [plural noun] in celebration.",
-	"\"Happy Thanksgiving to [plural noun] everywhere!\" little Sally [noun] cheered,",
-	"and they all lived [adverb] ever after."
-	],
-	[
 	"What I'm Thankful For",
     "This Thanksgiving, I’m thankful for all the [adjective] things in my life.",
     "Even though I complain about how [person in room] is always getting on my nerves, ",
@@ -49,5 +31,48 @@
 	"It was a [noun] to remember, and has since become known as the first Thanksgiving.",
 	"While the menu has changed [adverb] over the years, ",
 	"Thanksgiving is still a time to celebrate our [plural noun] and our [adjective] fortune."
+	],
+	[
+	"The Thanksgiving Grinch",
+    "It was Thanksgiving and all the people in [place] were ready for their celebration.",
+    "There was just one problem: the [adjective] turkey was missing!",
+    "The townspeople [verb (past tense)] high and low, but the [noun] was nowhere to be found.",
+	'"[Exclamation]!" little Sally [noun] said.',
+	"\"We can't have Thanksgiving without a [noun]!\"",
+	"Just then, a [adjective] figure appeared.",
+	"It was [person in room], the mean old [noun] who lived on top of a [adjective] hill and never came to visit.",
+	"\"I took your [adjective] turkey\", he shouted.",
+	"\"You [pural noun] are so thankful, but what do you have to be thankful for?\"",
+	"\"We have our friends, our families, and our [plural noun]\", said little Sally [noun].",
+	"\"Just because <i>you</i> don't have any doesn't mean you should ruin <i>our</i> Thanksgiving, you mean old [noun]!\"",
+	"The townspeople cheered, and the grumpy [noun] saw the error of his ways.",
+	"He returned the town's turkey and joined the [plural noun] in celebration.",
+	"\"Happy Thanksgiving to [plural noun] everywhere!\" little Sally [noun] cheered,",
+	"and they all lived [adverb] ever after."
+	],
+	[
+	"Thanks, Squanto",
+	"The first Thanksgiving might not have been possible without Squanto, a Native American [noun].",
+	"Squanto had learned to speak English in [place], England.",
+	"When he left England and [verb (past tense)] back to America, he discovered that his tribe no longer [verb (past tense)] there.",
+	"In 1620, Squanto settled with the [adjective] Pilgrims, who had just survived a [adjective] winter.",
+	"The Pigrims, it turns out, had no idea how to [verb] in the New World.",
+	"[Adverb], Squanto taught them how to plant [plural noun], fish for [plural noun], and hunt for wild [plural noun].",
+	"Without Squanto's help, the Pilgrims might not have [verb (past tense)], much less had [plural noun] to make a [adjective] Thanksgiving feast.", 
+	"Without Squanto's [adjective] help, we might not [verb] Thanksgiving at all."
+	],
+	[
+	"Travel Disaster",
+	"Flying for Thanksgiving is always a [adjective] nightmare, but this year was particularly [adjective].",
+	"My family was supposed to visit my Aunt [female person] and Uncle [male person] in [place].",
+	"But a [adjective] [noun] delayed our flight.",
+	"We finally boarded the [noun], but then [verb (past tense)] on the runway for [number] hours due to a faulty [noun].",
+	"We went back to the gate and were rescheduled on a different [noun].",
+	"Our [adjective] airplane finally took off [number] hours later.",
+	"The pilot said, \"Welcome aboard [Company name] Airlines. Enjoy your [adjective] flight to Hawaii.\"",
+	"<i>Hawaii?!</i> We were on the wrong [noun]! But we embraced the [adjective] mistake.",
+	"Hawaii was a more [adjective] destination than our Aunt and Uncle's!",
+	"We laughed [adverb] on the flight and enjoyed [adjective] frozen coconut [plural noun] on the beach.",
+	"There was no [noun] for our feast, but it was a [noun] to remember!"
 	]
   ];

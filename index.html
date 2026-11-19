@@ -18,6 +18,9 @@
 		top: 10px;
 		right: 10px;
 		z-index: 1000;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
 	}
 
 	#menu-button {
@@ -27,6 +30,7 @@
 		cursor: pointer;
 		padding: 5px 10px;
 		color: white;
+		margin: 0;
 	}
 
 	#story-menu {
@@ -35,6 +39,10 @@
 		border: 1px solid #ccc;
 		border-radius: 6px;
 		box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 6px;
 	}
 
 	#storyMenu {
@@ -42,6 +50,30 @@
 		padding: 6px;
 		max-width: 250px;
 	}
+	
+	.story-buttons {
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: space-between;
+		 gap: 6px;
+	}
+	
+	.story-option {
+		flex: 1;
+		/* width: 100%; */
+		text-align: left;
+		/*padding: 10px;*/
+		cursor: pointer;
+		border: none;
+		border-radius: 4px;
+		background: #555;
+		font-size: 16px;
+		color: #ddd;
+	}
+
+	.story-option:hover {
+		background: #38bdf8;
+	}	
 </style>
 </head>
 <body>
@@ -52,6 +84,10 @@
     <div id="story-menu" style="display:none;">
         <select id="storyMenu" onchange="changeStory()">
         </select>
+		<div class="story-buttons">
+			<button class="story-option" onclick="changeStory()">Restart</button>
+			<button class="story-option" onclick="nextStory()">Next</button>
+		</div>
     </div>
 </div>
 
@@ -157,6 +193,14 @@
 		});
 
 		currentLine = 0;
+		window.scrollTo(0,0);
+	}
+	
+	function nextStory() {
+		//let current = Number(menu.value);
+		//currentStory = (current + 1) % storyLines.length;
+		menu.value = (currentStory + 1) % storyLines.length;
+		changeStory();
 	}
 	
 	function changeStory() {
@@ -179,30 +223,30 @@
 		loadStory();
 	}
 
-  function startStory() {
-    document.getElementById("setup-screen").style.display = "none";
-    document.getElementById("story-screen").style.display = "block";
-	document.getElementById("next-btn").style.display = "block";  
-    showNextLine();
-  }
+	function startStory() {
+		document.getElementById("setup-screen").style.display = "none";
+		document.getElementById("story-screen").style.display = "block";
+	    document.getElementById("next-btn").style.display = "block";
+		showNextLine();
+	}
 
-  function showNextLine() {
-    if (currentLine >= parsedLines.length) return;
-    let text = parsedLines[currentLine];
-    text = text.replace(/\{\{(\d+)\}\}/g, (_, id) => {
-      const val = document.getElementById(`word-${id}`).value || "___";
-      return `<span class="blank">${val}</span>`;
-    });
-    const p = document.createElement("div");
-    p.className = "story-line";
-    p.innerHTML = text;
-    document.getElementById("lines-container").appendChild(p);
-    currentLine++;
-    if (currentLine >= parsedLines.length) {
-      document.getElementById("next-btn").style.display = "none";
-    }
-	window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-  }
+	function showNextLine() {
+		if (currentLine >= parsedLines.length) return;
+		let text = parsedLines[currentLine];
+		text = text.replace(/\{\{(\d+)\}\}/g, (_, id) => {
+		    const val = document.getElementById(`word-${id}`).value || "___";
+		    return `<span class="blank">${val}</span>`;
+		});
+		const p = document.createElement("div");
+		p.className = "story-line";
+		p.innerHTML = text;
+		document.getElementById("lines-container").appendChild(p);
+		currentLine++;
+		if (currentLine >= parsedLines.length) {
+		    document.getElementById("next-btn").style.display = "none";
+		}
+		window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+	}
   
 	function toggleMenu() {
 		const menu = document.getElementById("story-menu");
